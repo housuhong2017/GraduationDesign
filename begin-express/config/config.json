@@ -1,0 +1,9 @@
+{
+  "host":"localhost",
+  "user":"root",
+  "password":"<HSH>00y",
+  "database":"Begin",
+  "connectionLimit":10,
+  "supporBigNumbers":true
+
+}
