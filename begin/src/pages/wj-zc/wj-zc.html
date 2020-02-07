@@ -1,0 +1,44 @@
+<ion-header text-center no-border>
+  <ion-navbar color="trans">
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+      <div class="div1">
+          <!-- <img src="../../assets/imgs/logo2.gif"> -->
+          <span>Begin</span>
+      </div> 
+      <!-- <form action="url('http://192.168.152.144:3000/users')" method="post"> -->
+      
+          <ion-item color='trans'>
+            <ion-label color='light'>用户名/手机号</ion-label>
+            <ion-input type="text" #username></ion-input>
+          </ion-item>
+    
+          <ion-item color='trans'>
+            <ion-label color='light'>密码</ion-label>
+            <ion-input type="password" #password></ion-input> 
+          </ion-item>
+
+          <ion-item color='trans'>
+            <ion-label color='light'>邮箱</ion-label>
+            <ion-input type="email" #email></ion-input>
+          </ion-item>
+          <div id='zc'>
+            <button type='submit' ion-button round color='gr' (click)="logIn(username,password,email)">注册</button>
+          </div>
+          <div>
+            <p id="word">快开启你的运动之旅吧！</p>
+          </div>  
+       
+</ion-content>    
+         <!-- <div id='zc'>
+          <button type='submit' ion-button round color='gr' onclick="logIn(username,password,email)">注册</button>
+        </div>
+        <div>
+          <p id="word">开启你的运动之旅吧！</p>
+        </div> -->
+      <!-- </form>    -->
+
