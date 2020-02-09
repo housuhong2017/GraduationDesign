@@ -6,10 +6,10 @@
 -->
 <ion-content>
   <div class="box1">
-      <div class="box1-1"><img src="../../assets/imgs/logo3.gif"/></div>
+      <!-- <div class="box1-1"><img src="../../assets/imgs/logo3.gif"/></div> -->
       <div class="box1-2" (click)="gosub5()">
-        <i class="iconfont" style="color: rgb(173, 173, 173);">&#xe60d;</i>
-        <input type="text" placeholder="pigeon"/>
+        <i class="iconfont" style="color:grey">&#xe674;</i>
+        <input type="text" placeholder="瘦身攻略" style="background-color:white;"/>
       </div>
     </div>
     <div class="box2">
@@ -18,58 +18,38 @@
         <ion-slide>
             <img src="../../assets/imgs/011.jpg" style="width:100%;height:175px"/>
         </ion-slide>
+        <!-- <ion-slide>
+            <img src="../../assets/imgs/015.jpg" style="width:100%;height:175px"/>
+        </ion-slide> -->
         <ion-slide>
-            <img src="../../assets/imgs/012.jpg" style="width:100%;height:175px"/>
+            <img src="../../assets/imgs/016.jpg" style="width:100%;height:175px"/>
         </ion-slide>
         <ion-slide>
-            <img src="../../assets/imgs/013.jpg" style="width:100%;height:175px"/>
-        </ion-slide>
-        <ion-slide>
-            <img src="../../assets/imgs/010.jpg" style="width:100%;height:175px"/>
+            <img src="../../assets/imgs/017.jpg" style="width:100%;height:175px"/>
         </ion-slide>
       </ion-slides>
     </div>
-    <div class="box3">
-      <ul class="yul">
-        <li (click)="kq();">
-          <div>
-            <i class="iconfont" style="color: black;line-height: 82.79px;font-size: 30px;">&#xe618;</i>
-          </div>
-          <span>考勤</span>
-        </li>
-        <li (click)="fbrw()">
-          <div>
-            <i class="iconfont" style="color: black;line-height: 82.79px;font-size: 30px;">&#xe634;</i>
-          </div>
-          <span>发布任务</span>
-        </li>
-        <li (click)="lrcj();">
-          <div>
-            <i class="iconfont" style="color: black;line-height: 82.79px;font-size: 30px;">&#xe71e;</i>
-          </div> 
-         <span>录入成绩</span>
-        </li>
-      </ul>
-    </div>
     <div class="box4">
       <ul class="yul1">
-        <li (click)="gosub1()">
-          <div class="box4-1"><span>平时表现</span></div>
-          <div class="box4-2"><i class="iconfont" style="color: black;line-height: 56.79px;font-size: 20px;">&#xe62c;</i></div>
+        <li (click)="gosub1()" class='li1'>
+          <div class="box4-1"><i class="iconfont" style="color: white;font-size: 20px;">&#xe660;</i></div>
+          <div class="box4-2"><span style="color:white;font-size: 15px;letter-spacing: 3px;">运动课程</span></div>
         </li>
-        <li (click)="gosub2()">
-          <div class="box4-1"><span>教师手册</span></div>
-          <div class="box4-2"><i class="iconfont" style="color: black;line-height: 56.79px;font-size: 20px;">&#xe688;</i></div>
-        </li>
-        <li (click)="gosub3()">
-          <div class="box4-1"><span>校规校纪</span></div>
-          <div class="box4-2"><i class="iconfont" style="color: black;line-height: 56.79px;font-size: 20px;">&#xe657;</i></div>
-        </li>
-        <li (click)="gosub4()">
-          <div class="box4-1"><span>工作日报</span></div>
-          <div class="box4-2"><i class="iconfont" style="color: black;line-height: 56.79px;font-size: 20px;">&#xe60b;</i></div>
+        <li (click)="gosub2()" class="li2"> 
+          <div class="box4-3"><i class="iconfont" style="color: white;font-size: 17px;">&#xe60d;</i></div>
+          <div class="box4-4"><span style="color:white;font-size: 15px;letter-spacing: 3px;">为你推荐</span></div>
         </li>
       </ul>
     </div>
-  
+    <div class="box3">
+      <span style="color:#4a69bb;font-size: 20px;letter-spacing: 3px;float: left">今日步数</span>
+      <span style="color:#4a69bb;font-size: 15px; float: left;padding-top: 9px;padding-left: 5px;">Today's steps</span>
+    </div>
+    <div class="box5" style="border: 1px solid #2C2E47;height: 90px;width:332px;background-color: #2C2E47">
+      <div class="pao" style="height: 89px;width:89px;background-color: #6124ED;border-radius: 120px;float: left;margin-left: 23px;"><div style="margin-top:14px;margin-left: 15px;"><i class="iconfont" style="color:#ffeadb;font-size:58px;">&#xe661;</i></div></div> 
+      <div class="bu"><span style="color:honeydew;float: left;font-size: 40px;margin-left: 20px;margin-top: 16px;">6872</span><span style="color:honeydew;float: left;font-size: 30px;margin-left: 18px;margin-top: 19px;">步</span></div>
+    </div>
+    <div>
+      <img src="../../assets/imgs/014.jpg" style="width:100%;height:121px;padding-left:14px;padding-right: 14px;"/>
+    </div>
 </ion-content>

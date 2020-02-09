@@ -1,12 +1,13 @@
 page-syr-home1 {
     
     ion-content{
-        
+        background-color: white!important;
         .yul1,.yul{
             list-style: none;
         }
         .box1{
-            
+            padding-left: 14px;
+            padding-right: 14px;
             width: 100%;
             margin-top: 10px;
             height: 30px;
@@ -17,10 +18,10 @@ page-syr-home1 {
                 margin-left: 5%;
             }
             .box1-2{
-                width: 75%;
+                width: 100%;
                 float: left;
                 border: 1px solid rgb(173, 173, 173);
-                border-radius: 30px;
+                border-radius: 40px;
                 height: 30px;
                 padding: 6px 20px;
                 input{
@@ -30,72 +31,89 @@ page-syr-home1 {
             }
         }
         .box2{
-          
+            padding-left: 14px;
+            padding-right:14px;
+            padding-top: 10px;
             width: 100%;
-            margin-top: 25px;
+            // border: 1px solid rgb(173, 173, 173);
+            // border-radius: 60px;
+            // margin-top: 1px;
         }
         .box3{
-            
-            width: 100%;
-            margin-top: 20px;
-            ul{
-                width: 100%;
-                padding: 0;
-                margin: 0;
-                li{
-                    text-align: center;
-                    float: left;
-                    width: 23%;
-                    margin-left: 8%;
-                    div{
-                        border: 1px solid #ffe79a;
-                        background-color: #ffe79a;
-                        border-radius: 50%;
-                        height: 76px;
-                        margin-bottom: 10px;
-                    }
-                    span{
-                        font-size: 16px;
-                    }
-                }
-            }
+            text-align: center;
+            width: 92%;
+            float: left;
+            border: 1px solid #2C2E47;
+            // background-color: #2C2E47;
+            height: 70px;
+            padding-top: 20px;
+            // padding-left: 0px;
+            margin-left: 14px;
+            // margin-top: 3px;
         }
+       
         .box4{
             
             width: 100%;
-            margin-top: 10px;
+            // margin-top: 18px;
+            .li1{
+                margin-left: 14px;
+            }
+            .li2{
+                margin-left: 2px;
+            }
+            
             ul{
                 margin: 0;
                 padding: 0;
                 li{
                     text-align: center;
-                    width: 41%;
-                    margin-left: 6%;
-                    margin-top: 20px;
+                    width: 45.9%;
                     float: left;
-                    border: 1px solid rgb(190, 189, 189);
-                    background-color: rgb(240, 240, 240);
+                    border: 1px solid #2C2E47;
+                    background-color: #2C2E47;
                     height: 70px;
                     .box4-1{
-                        width: 50%;
-                        float: left;
-                        span{
-                            font-size: 14px;
-                            line-height: 70px;
-                        }
+                        border: 1px solid #304FEE;
+                        background-color: #4a69bb;
+                        width: 25px;
+                        height: 25px;
+                        margin-left: 6px;
+                        margin-top: 11px;
                     }
                     .box4-2{
-                        margin-right: 5px;
-                        margin-top: 5px;
-                        width: 40%;
-                        float: right;
-                        border: 1px solid #ffe79a;
-                        border-radius: 50%;
-                        background-color: #ffe79a;
-                        height: 53px;
+                        border: 1px solid #304FEE;
+                        background-color: #4a69bb;
+                        width: 130px;
+                        height: 24px;
+                        // position: relative;
+                        margin-left: 27px;
+                        margin-top: -10px;
+                    }
+                    .box4-3{
+                        border: 1px solid #ccda46;
+                        background-color: #8cba51;
+                        width: 25px;
+                        height: 25px;
+                        margin-left: 6px;
+                        margin-top: 11px;
+                    }
+                    .box4-4{
+                        border: 1px solid #ccda46;
+                        background-color: #8cba51;
+                        width: 130px;
+                        height: 24px;
+                        // position: relative;
+                        margin-left: 27px;
+                        margin-top: -10px;
+                        
                     }
                 }
             }
+        }
+        .box5{
+            margin-top: 140px;
+            margin-left: 14px;
         }
     }
 }
