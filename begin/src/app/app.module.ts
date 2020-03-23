@@ -43,7 +43,7 @@ import { LjhtjpyPage } from '../pages/ljhtjpy/ljhtjpy';
 import { LjhcjcgPage } from '../pages/ljhcjcg/ljhcjcg';
 import { Name2Page } from '../pages/name2/name2';
 import { HshstuidPage } from '../pages/hshstuid/hshstuid';
-//import { KrfKcbPage } from '../pages/krf-kcb/krf-kcb';
+import { KrfKcbPage } from '../pages/krf-kcb/krf-kcb';
 import { SyrNoticePage } from '../pages/syr-notice/syr-notice'; 
 import { SyrTeacherrulePage } from '../pages/syr-teacherrule/syr-teacherrule';
 import { SyrSchoolrulePage } from '../pages/syr-schoolrule/syr-schoolrule';
@@ -55,7 +55,7 @@ import { SyrExamPage } from '../pages/syr-exam/syr-exam';
 import { SyrCoursePage } from '../pages/syr-course/syr-course';
 import { SyrEssayPage } from '../pages/syr-essay/syr-essay';
 import { SyrTieziPage } from '../pages/syr-tiezi/syr-tiezi';
-import { KrfKcbPage } from '../pages/krf-kcb/krf-kcb';
+// import { KrfKcbPage } from '../pages/krf-kcb/krf-kcb';
 import { LjdKcbPage } from '../pages/ljd-kcb/ljd-kcb';
 @NgModule({
   declarations: [
@@ -155,7 +155,7 @@ import { LjdKcbPage } from '../pages/ljd-kcb/ljd-kcb';
     LjhqrjrPage,
     LjhcjcgPage,
     WjKqPage,
-    SyrHome2Page,
+    // SyrHome2Page,
     Tabs2Page,
     SyrHome1Page,
     LjdJczyPage,
