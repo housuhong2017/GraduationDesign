@@ -1,10 +1,12 @@
-
-<ion-header>
-
-  <ion-navbar color='gr'>
-    <ion-title>编辑个人信息</ion-title>
+<ion-header text-center no-border>
+  <ion-navbar color="hl">
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title style="margin-right:55px;">
+      编辑个人信息
+    </ion-title>
   </ion-navbar>
-
 </ion-header>
 <ion-content padding>
   <div>
@@ -13,7 +15,7 @@
 
     <p class="word">修改个性签名</p>     
        <input type="text" name="submit" #content style="background-color:#f2f4fb;width: 330px;height: 50px;text-align: center;padding-top: 0;" placeholder="在此修改个性签名">
-       <button style="background-color:#a1c45a;margin-top: 60px;color:black;" block ion-button (click)="save(content,content1);">保存</button> 
+       <button style="background-color:#2C2E47;margin-top: 60px;color:white;" block ion-button (click)="save(content,content1);">保存</button> 
   </div>
 </ion-content>
 

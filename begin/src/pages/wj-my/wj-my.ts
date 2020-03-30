@@ -3,11 +3,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { WjClassPage } from '../wj-class/wj-class';
 import { WjHeartPage } from '../wj-heart/wj-heart';
 import { WjUpdatePage } from '../wj-update/wj-update';
-import { WjSettingPage } from '../wj-setting/wj-setting';
 import { WjGxqmPage } from '../wj-gxqm/wj-gxqm';
 import { WjTouxiangPage } from '../wj-touxiang/wj-touxiang';
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Events } from 'ionic-angular';  
+import { HshDlPage } from '../hsh-dl/hsh-dl';
+import { WjSettingPage } from '../wj-setting/wj-setting';
 @IonicPage()
 @Component({
   selector: 'page-wj-my',
@@ -32,11 +33,14 @@ export class WjMyPage {
   push2(){
     this.navCtrl.push(WjHeartPage);
   }
+  push3(){
+    this.navCtrl.push(WjSettingPage);
+  }
   push4(){
     this.navCtrl.push(WjUpdatePage);
   }
   push5(){
-    this.navCtrl.push(WjSettingPage);
+    this.navCtrl.push(HshDlPage);
   }
   bj(){
     this.navCtrl.push(WjGxqmPage);
