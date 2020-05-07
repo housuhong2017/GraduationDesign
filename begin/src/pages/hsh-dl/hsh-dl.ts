@@ -47,6 +47,7 @@ export class HshDlPage {
   ).subscribe(data=>{
       // console.log(data);
       
+      
       localStorage.setItem('user_id',a.name);//本地存储user_id
       if(JSON.stringify(data) === '[]' || data===null) {
         this.showToast('bottom','用户名或密码错误，请重新输入！');
